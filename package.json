@@ -1,16 +1,25 @@
 {
   "name": "tslint-config-airbnb",
-  "version": "1.0.0",
   "description": "A TSLint config for Airbnb JavaScript Style",
-  "main": "tslint.js",
-  "repository": "https://github.com/progre/tslint-config-airbnb",
+  "version": "1.0.0",
   "author": "progre",
-  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/progre/tslint-config-airbnb/issues"
+  },
   "dependencies": {
     "tslint-eslint-rules": "^3.4.0",
     "tslint-microsoft-contrib": "^4.0.0"
   },
+  "homepage": "https://github.com/progre/tslint-config-airbnb/#readme",
+  "keywords": [
+    "airbnb",
+    "tslint",
+    "typescript"
+  ],
+  "license": "Apache-2.0",
+  "main": "tslint.js",
   "peerDependencies": {
     "tslint": "^4.5.1"
-  }
+  },
+  "repository": "github:progre/tslint-config-airbnb"
 }
