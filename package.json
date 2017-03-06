@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "tslint-eslint-rules": "^3.4.0",
-    "tslint-microsoft-contrib": "^4.0.0"
+    "tslint-microsoft-contrib": "^4.0.0",
+    "vrsource-tslint-rules": "^4.0.1"
   },
   "homepage": "https://github.com/progre/tslint-config-airbnb/#readme",
   "keywords": [

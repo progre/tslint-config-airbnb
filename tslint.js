@@ -3,7 +3,8 @@ const path = require('path');
 module.exports = {
   rulesDirectory: [
     path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules'),
-    path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './')
+    path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './'),
+    path.join(path.dirname(require.resolve('vrsource-tslint-rules')), 'rules')
   ],
   rules: {
     'prefer-const': true, // 2.1, 13.1
@@ -20,6 +21,7 @@ module.exports = {
       'jsx-double'
     ], // 6.1
     'no-eval': true, // 6.4
+    'no-function-constructor-with-string-args': true, // 7.10
     'space-before-function-paren': [
       true,
       {
@@ -27,6 +29,7 @@ module.exports = {
         named: 'never' // 18.3
       }
     ],
+    'no-param-reassign': true, // 7.12
     align: [
       true,
       'arguments',
@@ -41,6 +44,7 @@ module.exports = {
         'requireForBlockBody': true
       }
     ], // 8.4
+    'no-duplicate-imports': true, // 10.4
     'one-variable-per-declaration': [
       true,
       'ignore-for-loop'
