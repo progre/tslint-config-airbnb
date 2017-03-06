@@ -81,8 +81,7 @@ module.exports = {
       'check-branch', // 18.3
       'check-decl', // 18.4
       'check-operator', // 18.4
-      'check-preblock', // 18.2
-      'check-separator' // 18.2
+      'check-preblock' // 18.2
     ],
     eofline: true, // 18.5
     'space-in-parens': [
