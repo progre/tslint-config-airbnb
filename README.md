@@ -22,9 +22,10 @@ In `tslint.json`:
 
 ### Rules
 
-* [TSLint](https://www.npmjs.com/package/tslint)
-* [TSLint ESLint Rules](https://www.npmjs.com/package/tslint-eslint-rules)
+* [tslint](https://www.npmjs.com/package/tslint)
+* [tslint-eslint-rules](https://www.npmjs.com/package/tslint-eslint-rules)
 * [tslint-microsoft-contrib](https://www.npmjs.com/package/tslint-microsoft-contrib)
+* [vrsource-tslint-rules](https://www.npmjs.com/package/vrsource-tslint-rules)
 
 ## License
 
