@@ -21,7 +21,7 @@
   "main": "tslint.js",
   "peerDependencies": {
     "tslint": ">=5.1.0",
-    "tsutils": ">=1.6.0"
+    "tsutils": "1.6.0"
   },
   "repository": "github:progre/tslint-config-airbnb"
 }
