@@ -7,6 +7,7 @@
     "url": "https://github.com/progre/tslint-config-airbnb/issues"
   },
   "dependencies": {
+    "tslint-consistent-codestyle": "^1.4.0",
     "tslint-eslint-rules": "^4.0.0",
     "tslint-microsoft-contrib": "^5.0.0",
     "vrsource-tslint-rules": "^5.1.0"

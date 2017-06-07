@@ -23,6 +23,7 @@ In `tslint.json`:
 ### Rules
 
 * [tslint](https://www.npmjs.com/package/tslint)
+* [tslint-consistent-codestyle](https://www.npmjs.com/package/tslint-consistent-codestyle)
 * [tslint-eslint-rules](https://www.npmjs.com/package/tslint-eslint-rules)
 * [tslint-microsoft-contrib](https://www.npmjs.com/package/tslint-microsoft-contrib)
 * [vrsource-tslint-rules](https://www.npmjs.com/package/vrsource-tslint-rules)

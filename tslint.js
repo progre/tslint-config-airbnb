@@ -2,6 +2,7 @@ const path = require('path');
 
 module.exports = {
   rulesDirectory: [
+    path.join(path.dirname(require.resolve('tslint-consistent-codestyle')), './'),
     path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules'),
     path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './'),
     path.join(path.dirname(require.resolve('vrsource-tslint-rules')), 'rules')
@@ -10,6 +11,7 @@ module.exports = {
     'prefer-const': true, // 2.1, 13.1
     'no-var-keyword': true, // 2.2
     'object-literal-shorthand': true, // 3.3, 3.4
+    'object-shorthand-properties-first': true, // 3.5
     'object-literal-key-quotes': [
       true,
       'as-needed'
