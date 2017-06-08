@@ -20,10 +20,5 @@
   ],
   "license": "Apache-2.0",
   "main": "tslint.js",
-  "peerDependencies": {
-    "tslint": ">=5.1.0",
-    "tsutils": "1.6.0",
-    "typescript": "^2.1.4 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >= 2.4.0-dev"
-  },
   "repository": "github:progre/tslint-config-airbnb"
 }
