@@ -126,6 +126,7 @@ module.exports = {
       'check-format' // 22.2
     ],
     'no-var-self': true, // 22.5
-    'import-name': true // 22.6
+    'import-name': true, // 22.6
+    'no-console': [true, 'log', 'error']
   }
 };
