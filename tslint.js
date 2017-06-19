@@ -53,8 +53,7 @@ module.exports = {
     ], // 13.2
     'no-increment-decrement': true, // 13.6
     'triple-equals': [
-      true,
-      'allow-null-check'
+      true
     ], // 15.1
     // 'no-boolean-literal-compare': true, // 15.3  disabled by https://github.com/Microsoft/vscode-tslint/issues/70
     // 'strict-boolean-expressions': true, // 15.3  disabled by https://github.com/Microsoft/vscode-tslint/issues/70
