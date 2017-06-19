@@ -1046,9 +1046,9 @@ tslint-consistent-codestyle@^1.4.0:
   dependencies:
     tsutils "^2.2.0"
 
-tslint-eslint-rules@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/tslint-eslint-rules/-/tslint-eslint-rules-4.0.0.tgz#4e0e59ecd5701c9a48c66ed47bdcafb1c635d27b"
+tslint-eslint-rules@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/tslint-eslint-rules/-/tslint-eslint-rules-4.1.1.tgz#7c30e7882f26bc276bff91d2384975c69daf88ba"
   dependencies:
     doctrine "^0.7.2"
     tslib "^1.0.0"
