@@ -56,8 +56,8 @@ module.exports = {
       true,
       "allow-null-check"
     ], // 15.1
-    // 'no-boolean-literal-compare': true, // 15.3  disabled by https://github.com/Microsoft/vscode-tslint/issues/70
-    // 'strict-boolean-expressions': true, // 15.3  disabled by https://github.com/Microsoft/vscode-tslint/issues/70
+    'no-boolean-literal-compare': true, // 15.3
+    'strict-boolean-expressions': true, // 15.3
     'brace-style': [
       true,
       '1tbs',
