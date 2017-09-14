@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "tslint": "^5.2.0",
-    "tslint-config-airbnb": "file:../",
+    "tslint": "5.7.0",
+    "tslint-config-airbnb": "*",
+    "tslint-language-service": "0.9.6",
     "tsutils": "1.6.0",
-    "typescript": "^2.3.2"
+    "typescript": "2.5.2"
   }
 }
