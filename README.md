@@ -31,11 +31,13 @@ In `tslint.json`:
 
 ## Versioning
 
+```
 +----- Major version is synchronize with tslint's major version.
 | +--- Minor version has BREAKING CHANGE and feat.
 | | +- Patch version has patch.
 | | |
 x.x.x
+```
 
 ## License
 
