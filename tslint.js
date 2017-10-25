@@ -54,7 +54,7 @@ module.exports = {
     'no-increment-decrement': true, // 13.6
     'triple-equals': [
       true,
-      "allow-null-check"
+      'allow-null-check'
     ], // 15.1
     'no-boolean-literal-compare': true, // 15.3
     'strict-boolean-expressions': true, // 15.3
@@ -62,7 +62,7 @@ module.exports = {
       true,
       '1tbs',
       {
-        "allowSingleLine": true
+        allowSingleLine: true
       }
     ], // 16.2
     'comment-format': [
