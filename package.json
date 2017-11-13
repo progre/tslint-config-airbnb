@@ -12,6 +12,11 @@
     "tslint-microsoft-contrib": "^5.0.0",
     "vrsource-tslint-rules": "^5.1.0"
   },
+  "devDependencies": {
+    "@commitlint/cli": "^4.3.0",
+    "@commitlint/config-angular": "^4.3.0",
+    "husky": "^0.14.3"
+  },
   "homepage": "https://github.com/progre/tslint-config-airbnb/#readme",
   "keywords": [
     "airbnb",
@@ -20,5 +25,8 @@
   ],
   "license": "Apache-2.0",
   "main": "tslint.js",
-  "repository": "github:progre/tslint-config-airbnb"
+  "repository": "github:progre/tslint-config-airbnb",
+  "scripts": {
+    "commitmsg": "commitlint -e $GIT_PARAMS"
+  }
 }
