@@ -7,7 +7,7 @@ module.exports = {
     path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './'),
     path.join(path.dirname(require.resolve('vrsource-tslint-rules')), 'rules')
   ],
-  rules: {
+  rules: { // base on https://github.com/airbnb/javascript/tree/44dbd0bdc41d08eb5de8ad698099ae44240f4b0d
     'prefer-const': true, // 2.1, 13.1
     'no-var-keyword': true, // 2.2
     'object-literal-shorthand': true, // 3.3, 3.4
@@ -28,7 +28,7 @@ module.exports = {
       true,
       {
         anonymous: 'always', // 7.11
-        named: 'never' // 18.3
+        named: 'never' // 19.3
       }
     ],
     'no-parameter-reassignment': true, // 7.12
@@ -38,7 +38,7 @@ module.exports = {
       'parameters'
     ], // 7.15
     'ter-prefer-arrow-callback': [true], // 8.1
-    'arrow-parens': false,
+    'arrow-parens': false, // 8.2
     'ter-arrow-parens': [
       true,
       'as-needed',
@@ -68,7 +68,7 @@ module.exports = {
     'comment-format': [
       true,
       'check-space'
-    ], // 17.3
+    ], // 18.3
     indent: [
       true,
       'space'
@@ -77,55 +77,55 @@ module.exports = {
       true,
       2,
       { 'SwitchCase': 1 }
-    ], // 18.1
+    ], // 19.1
     whitespace: [
       true,
-      'check-branch', // 18.3
-      'check-decl', // 18.4
-      'check-operator', // 18.4
-      'check-preblock' // 18.2
+      'check-branch', // 19.3
+      'check-decl', // 19.4
+      'check-operator', // 19.4
+      'check-preblock' // 19.2
     ],
-    eofline: true, // 18.5
+    eofline: true, // 19.5
     'space-in-parens': [
       true,
       'never'
-    ], // 18.9
+    ], // 19.9
     'array-bracket-spacing': [
       true,
       'never'
-    ], // 18.10
+    ], // 19.10
     'object-curly-spacing': [
       true,
       'always'
-    ], // 18.11
+    ], // 19.11
     'max-line-length': [
       true,
       100
-    ], // 18.12
+    ], // 19.12
     'trailing-comma': [
       true,
       {
         multiline: 'always',
         singleline: 'never'
       }
-    ], // 19.2
+    ], // 20.2
     semicolon: [
       true,
       'always'
-    ], // 20.1
-    radix: true, // 21.3
-    'no-construct': true, // 21.3, 21.6
+    ], // 21.1
+    'no-construct': true, // 22.2, 22.3, 22.6
+    radix: true, // 22.3
     'function-name': [
       true,
       {
         'static-method-regex': '^[a-z][\\w\\d]+$'
-      } // 22.1
+      } // 23.1
     ],
     'variable-name': [
       true,
-      'check-format' // 22.2
+      'check-format' // 23.2
     ],
-    'no-var-self': true, // 22.5
-    'import-name': true // 22.6
+    'no-var-self': true, // 23.5
+    'import-name': true // 23.6
   }
 };
