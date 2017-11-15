@@ -9,8 +9,7 @@
   "dependencies": {
     "tslint-consistent-codestyle": "^1.10.0",
     "tslint-eslint-rules": "^4.1.1",
-    "tslint-microsoft-contrib": "~5.0.1",
-    "vrsource-tslint-rules": "~5.8.0"
+    "tslint-microsoft-contrib": "~5.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^4.3.0",

@@ -197,12 +197,11 @@ tslib@^1.7.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.8.0.tgz#dc604ebad64bcbf696d613da6c954aa0e7ea1eb6"
 
 tslint-config-airbnb@../:
-  version "5.3.0"
+  version "5.3.1"
   dependencies:
     tslint-consistent-codestyle "^1.10.0"
     tslint-eslint-rules "^4.1.1"
     tslint-microsoft-contrib "~5.0.1"
-    vrsource-tslint-rules "~5.8.0"
 
 tslint-consistent-codestyle@^1.10.0:
   version "1.10.0"
@@ -229,7 +228,7 @@ tslint-microsoft-contrib@~5.0.1:
   dependencies:
     tsutils "^1.4.0"
 
-tslint@5.8.0, tslint@~5.8.0:
+tslint@5.8.0:
   version "5.8.0"
   resolved "https://registry.yarnpkg.com/tslint/-/tslint-5.8.0.tgz#1f49ad5b2e77c76c3af4ddcae552ae4e3612eb13"
   dependencies:
@@ -258,12 +257,6 @@ tsutils@^2.12.1, tsutils@^2.12.2:
 typescript@2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.6.1.tgz#ef39cdea27abac0b500242d6726ab90e0c846631"
-
-vrsource-tslint-rules@~5.8.0:
-  version "5.8.0"
-  resolved "https://registry.yarnpkg.com/vrsource-tslint-rules/-/vrsource-tslint-rules-5.8.0.tgz#b476f160b93cb0e3403fcea0848d665936a7a08f"
-  dependencies:
-    tslint "~5.8.0"
 
 wrappy@1:
   version "1.0.2"

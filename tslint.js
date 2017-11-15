@@ -4,8 +4,7 @@ module.exports = {
   rulesDirectory: [
     path.join(path.dirname(require.resolve('tslint-consistent-codestyle')), './'),
     path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules'),
-    path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './'),
-    path.join(path.dirname(require.resolve('vrsource-tslint-rules')), 'rules')
+    path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './')
   ],
   rules: { // base on https://github.com/airbnb/javascript/tree/44dbd0bdc41d08eb5de8ad698099ae44240f4b0d
     'prefer-const': true, // 2.1, 13.1
