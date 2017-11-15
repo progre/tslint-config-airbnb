@@ -64,6 +64,7 @@ module.exports = {
         allowSingleLine: true
       }
     ], // 16.2
+    'no-else-after-return': true, // 16.3
     'comment-format': [
       true,
       'check-space'
