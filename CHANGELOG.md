@@ -1,5 +1,5 @@
-<a name="5.4.0"></a>
-# [5.4.0](https://github.com/progre/tslint-config-airbnb/compare/5.3.0...5.4.0) (2017-11-15)
+<a name="5.4.1"></a>
+# [5.4.1](https://github.com/progre/tslint-config-airbnb/compare/5.3.0...5.4.1) (2017-11-15)
 
 
 ### Features
