@@ -84,7 +84,11 @@ module.exports = {
     'function-name': [
       true,
       {
-        'static-method-regex': '^[a-z][\\w\\d]+$',
+        'function-regex': /^[a-z$][\w\d]+$/,
+        'method-regex': /^[a-z$][\w\d]+$/,
+        'private-method-regex': /^[a-z$][\w\d]+$/,
+        'protected-method-regex': /^[a-z$][\w\d]+$/,
+        'static-method-regex': /^[a-z$][\w\d]+$/,
       }, // 23.1
     ],
     'variable-name': [true, 'check-format'], // 23.2
