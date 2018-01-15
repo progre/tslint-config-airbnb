@@ -10,7 +10,8 @@ module.exports = {
     'prefer-const': true, // 2.1, 13.1
     'no-var-keyword': true, // 2.2
     'object-literal-shorthand': true, // 3.3, 3.4
-    'object-shorthand-properties-first': true, // 3.5
+    'object-shorthand-properties-first': false, // 3.5
+    'object-literal-sort-keys': [true, 'shorthand-first'],
     'object-literal-key-quotes': [true, 'as-needed'], // 3.6
     'prefer-array-literal': true, // 4.1
     quotemark: [
