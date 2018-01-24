@@ -92,7 +92,7 @@ module.exports = {
       }, // 23.1
     ],
     'variable-name': [true, 'check-format'], // 23.2
-    'no-var-self': true, // 23.5
+    'no-this-assignment': true, // 23.5
     'import-name': true, // 23.6
   },
 };
