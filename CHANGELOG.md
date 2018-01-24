@@ -1,3 +1,14 @@
+<a name="5.5.0"></a>
+# [5.5.0](https://github.com/progre/tslint-config-airbnb/compare/5.4.2...5.5.0) (2018-01-24)
+
+
+### Features
+
+* replace no-var-self with no-this-assignment ([397e531](https://github.com/progre/tslint-config-airbnb/commit/397e531))
+* add peerDependencies ([7b620a5](https://github.com/progre/tslint-config-airbnb/commit/7b620a5))
+
+
+
 <a name="5.4.2"></a>
 ## [5.4.2](https://github.com/progre/tslint-config-airbnb/compare/5.4.1...5.4.2) (2017-11-15)
 
