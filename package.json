@@ -25,6 +25,9 @@
   ],
   "license": "Apache-2.0",
   "main": "tslint.js",
+  "peerDependencies": {
+    "tslint": "^5.5.0"
+  },
   "repository": "github:progre/tslint-config-airbnb",
   "scripts": {
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
