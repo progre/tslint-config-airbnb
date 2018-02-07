@@ -1,3 +1,13 @@
+<a name="5.6.0"></a>
+# [5.6.0](https://github.com/progre/tslint-config-airbnb/compare/5.5.0...5.6.0) (2018-02-07)
+
+
+### Bug Fixes
+
+* resolve interfere with 15.7 ([7396b2b](https://github.com/progre/tslint-config-airbnb/commit/7396b2b))
+
+
+
 <a name="5.5.0"></a>
 # [5.5.0](https://github.com/progre/tslint-config-airbnb/compare/5.4.2...5.5.0) (2018-01-24)
 
