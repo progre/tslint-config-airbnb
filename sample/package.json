@@ -6,6 +6,6 @@
     "tslint": "5.8.0",
     "tslint-config-airbnb": "../",
     "tslint-language-service": "0.9.6",
-    "typescript": "2.6.1"
+    "typescript": "^2.7.1"
   }
 }
