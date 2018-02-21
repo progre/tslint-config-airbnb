@@ -1,3 +1,13 @@
+<a name="5.7.0"></a>
+# [5.7.0](https://github.com/progre/tslint-config-airbnb/compare/5.6.0...5.7.0) (2018-02-21)
+
+
+### Features
+
+* add curly for 16.1 ([5143689](https://github.com/progre/tslint-config-airbnb/commit/5143689))
+
+
+
 <a name="5.6.0"></a>
 # [5.6.0](https://github.com/progre/tslint-config-airbnb/compare/5.5.0...5.6.0) (2018-02-07)
 

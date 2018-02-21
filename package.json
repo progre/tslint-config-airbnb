@@ -1,7 +1,7 @@
 {
   "name": "tslint-config-airbnb",
   "description": "A TSLint config for Airbnb JavaScript Style",
-  "version": "5.6.0",
+  "version": "5.7.0",
   "author": "progre",
   "bugs": {
     "url": "https://github.com/progre/tslint-config-airbnb/issues"
