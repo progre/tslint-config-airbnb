@@ -77,3 +77,25 @@ function rule15_7_good(a: Object, b: Object, c: Object) {
   const bar = !!c;
   const baz = !c;
 }
+
+function rule16_1(test: boolean) {
+  // bad
+  if (test)
+    return false;
+
+  // good
+  if (test) return false;
+
+  // good
+  if (test) {
+    return false;
+  }
+
+  // bad
+  function foo() { return false; }
+
+  // good
+  function bar() {
+    return false;
+  }
+}

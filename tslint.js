@@ -52,6 +52,7 @@ module.exports = {
       'allow-string',
       'allow-mix',
     ],
+    curly: [true, 'ignore-same-line'], // 16.1
     'brace-style': [
       true,
       '1tbs',
