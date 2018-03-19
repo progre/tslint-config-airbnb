@@ -45,13 +45,6 @@ module.exports = {
     'no-increment-decrement': true, // 13.6
     'triple-equals': [true, 'allow-null-check'], // 15.1
     'no-boolean-literal-compare': true, // 15.3
-    'strict-boolean-expressions': [ // 15.3
-      true,
-      'allow-null-union',
-      'allow-undefined-union',
-      'allow-string',
-      'allow-mix',
-    ],
     curly: [true, 'ignore-same-line'], // 16.1
     'brace-style': [
       true,
