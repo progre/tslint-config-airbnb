@@ -1,3 +1,13 @@
+<a name="5.8.0"></a>
+# [5.8.0](https://github.com/progre/tslint-config-airbnb/compare/5.7.0...5.8.0) (2018-03-19)
+
+
+### Features
+
+* remove strict-boolean-expressions [#29](https://github.com/progre/tslint-config-airbnb/issues/29) ([50d7342](https://github.com/progre/tslint-config-airbnb/commit/50d7342))
+
+
+
 <a name="5.7.0"></a>
 # [5.7.0](https://github.com/progre/tslint-config-airbnb/compare/5.6.0...5.7.0) (2018-02-21)
 
