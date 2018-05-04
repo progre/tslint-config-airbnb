@@ -6,7 +6,7 @@ module.exports = {
     path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules'),
     path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './'),
   ],
-  rules: { // base on https://github.com/airbnb/javascript/tree/44dbd0bdc41d08eb5de8ad698099ae44240f4b0d
+  rules: { // based on https://github.com/airbnb/javascript/tree/edf942eeb6bee3ae538e1484861ea0721fad4856
     'prefer-const': true, // 2.1, 13.1
     'no-var-keyword': true, // 2.2
     'object-literal-shorthand': true, // 3.3, 3.4
@@ -65,12 +65,18 @@ module.exports = {
       'check-decl', // 19.4
       'check-operator', // 19.4
       'check-preblock', // 19.2
+      'check-separator', // 19.14
     ],
     eofline: true, // 19.5
     'space-in-parens': [true, 'never'], // 19.9
     'array-bracket-spacing': [true, 'never'], // 19.10
     'object-curly-spacing': [true, 'always'], // 19.11
     'max-line-length': [true, 100], // 19.12
+    'block-spacing': true, // 19.13
+    'ter-computed-property-spacing': true, // 19.15
+    'ter-func-call-spacing': true, // 19.16
+    'no-trailing-whitespace': true, // 19.18
+    'no-consecutive-blank-lines': true, // 19.19
     'trailing-comma': [
       true,
       {
