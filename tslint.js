@@ -94,5 +94,17 @@ module.exports = {
     'variable-name': [true, 'check-format'], // 23.2
     'no-this-assignment': true, // 23.5
     'import-name': true, // 23.6
+    'react-a11y-anchors': true,
+    'react-a11y-aria-unsupported-elements': true,
+    'react-a11y-event-has-role': true,
+    'react-a11y-image-button-has-alt': true,
+    'react-a11y-img-has-alt': true,
+    'react-a11y-lang': true,
+    'react-a11y-props': true,
+    'react-a11y-proptypes': true,
+    'react-a11y-role-has-required-aria-props': true,
+    'react-a11y-role-supports-aria-props': true,
+    'react-a11y-role': true,
+    'react-a11y-tabindex-no-positive': true,
   },
 };
