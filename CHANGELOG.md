@@ -1,3 +1,13 @@
+<a name="5.9.0"></a>
+# [5.9.0](https://github.com/progre/tslint-config-airbnb/compare/5.8.0...5.9.0) (2018-05-19)
+
+
+### Features
+
+* add whitespace rules ([1c9864d](https://github.com/progre/tslint-config-airbnb/commit/1c9864d))
+
+
+
 <a name="5.8.0"></a>
 # [5.8.0](https://github.com/progre/tslint-config-airbnb/compare/5.7.0...5.8.0) (2018-03-19)
 
