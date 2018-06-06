@@ -82,6 +82,7 @@ module.exports = {
       {
         multiline: 'always',
         singleline: 'never',
+        esSpecCompliant: true,
       },
     ], // 20.2
     semicolon: [true, 'always'], // 21.1
