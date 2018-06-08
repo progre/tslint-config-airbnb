@@ -6,7 +6,7 @@ module.exports = {
     path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules'),
     path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './'),
   ],
-  rules: { // based on https://github.com/airbnb/javascript/tree/edf942eeb6bee3ae538e1484861ea0721fad4856
+  rules: { // based on https://github.com/airbnb/javascript/tree/74fb34f08d4f1961169e9c37c9036a5b42aa7bf1
     'prefer-const': true, // 2.1, 13.1
     'no-var-keyword': true, // 2.2
     'object-literal-shorthand': true, // 3.3, 3.4
@@ -43,6 +43,7 @@ module.exports = {
     'no-duplicate-imports': true, // 10.4
     'one-variable-per-declaration': [true, 'ignore-for-loop'], // 13.2
     'no-increment-decrement': true, // 13.6
+    "no-unused-variable": true, // 13.8
     'triple-equals': [true, 'allow-null-check'], // 15.1
     'no-boolean-literal-compare': true, // 15.3
     curly: [true, 'ignore-same-line'], // 16.1
