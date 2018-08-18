@@ -1,3 +1,23 @@
+<a name="5.10.0"></a>
+# [5.10.0](https://github.com/progre/tslint-config-airbnb/compare/5.9.2...5.10.0) (2018-08-18)
+
+
+### Bug Fixes
+
+* allow-destructuring on no-this-assignment ([d80f2f0](https://github.com/progre/tslint-config-airbnb/commit/d80f2f0)), closes [#47](https://github.com/progre/tslint-config-airbnb/issues/47)
+
+
+### Features
+
+* update dependencies ([0cd45bf](https://github.com/progre/tslint-config-airbnb/commit/0cd45bf)), closes [#52](https://github.com/progre/tslint-config-airbnb/issues/52) [#53](https://github.com/progre/tslint-config-airbnb/issues/53)
+
+and some PRs
+
+* https://github.com/progre/tslint-config-airbnb/pull/40
+* https://github.com/progre/tslint-config-airbnb/pull/41
+* https://github.com/progre/tslint-config-airbnb/pull/42
+* https://github.com/progre/tslint-config-airbnb/pull/48
+
 <a name="5.9.0"></a>
 # [5.9.0](https://github.com/progre/tslint-config-airbnb/compare/5.8.0...5.9.0) (2018-05-19)
 
