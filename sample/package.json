@@ -1,11 +1,11 @@
 {
   "name": "test",
   "version": "1.0.0",
-  "main": "index.js",
   "dependencies": {
     "tslint": "5.8.0",
     "tslint-config-airbnb": "../",
     "tslint-language-service": "0.9.6",
     "typescript": "^2.7.1"
-  }
+  },
+  "main": "index.js"
 }
