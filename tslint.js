@@ -102,6 +102,6 @@ module.exports = {
     'variable-name': [true, 'check-format'], // 23.2
     'no-this-assignment': true, // 23.5
     'import-name': true, // 23.6
-    'class-name': true,
+    'class-name': true, // 23.3
   },
 };
