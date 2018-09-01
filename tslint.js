@@ -16,8 +16,11 @@ module.exports = {
     quotemark: [
       true,
       'single',
+      'avoid-escape',
+      'avoid-template',
       'jsx-double',
-    ], // 6.1
+    ], // 6.1, 6.5
+    'prefer-template': true, // 6.3
     'no-eval': true, // 6.4
     'no-function-constructor-with-string-args': true, // 7.10
     'space-before-function-paren': [
