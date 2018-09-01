@@ -1,3 +1,21 @@
+<a name="5.11.0"></a>
+# [5.11.0](https://github.com/progre/tslint-config-airbnb/compare/5.10.0...5.11.0) (2018-09-01)
+
+
+### Bug Fixes
+
+* remove deprecated rule "no-unused-variable" ([5b54968](https://github.com/progre/tslint-config-airbnb/commit/5b54968)), closes [#54](https://github.com/progre/tslint-config-airbnb/issues/54)
+
+and a PR
+
+* https://github.com/progre/tslint-config-airbnb/pull/50
+
+
+### Features
+
+* https://github.com/progre/tslint-config-airbnb/pull/49
+
+
 <a name="5.10.0"></a>
 # [5.10.0](https://github.com/progre/tslint-config-airbnb/compare/5.9.2...5.10.0) (2018-08-18)
 
