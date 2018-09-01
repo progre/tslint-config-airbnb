@@ -46,7 +46,6 @@ module.exports = {
     'no-duplicate-imports': true, // 10.4
     'one-variable-per-declaration': [true, 'ignore-for-loop'], // 13.2
     'no-increment-decrement': true, // 13.6
-    "no-unused-variable": true, // 13.8
     'triple-equals': [true, 'allow-null-check'], // 15.1
     'no-boolean-literal-compare': true, // 15.3
     curly: [true, 'ignore-same-line'], // 16.1
