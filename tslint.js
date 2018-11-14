@@ -56,7 +56,7 @@ module.exports = {
     ], // 16.2
     'no-else-after-return': true, // 16.3
     'comment-format': [true, 'check-space'], // 18.3
-    indent: [true, 'space'], // 19.1
+    indent: [true, 'spaces'], // 19.1
     'ter-indent': [
       true,
       2,
