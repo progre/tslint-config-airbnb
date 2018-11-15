@@ -1,3 +1,13 @@
+<a name="5.11.1"></a>
+## [5.11.1](https://github.com/progre/tslint-config-airbnb/compare/5.11.0...5.11.1) (2018-11-15)
+
+
+### Bug Fixes
+
+* wrong rule configuration ([3abd09c](https://github.com/progre/tslint-config-airbnb/commit/3abd09c)), closes [#56](https://github.com/progre/tslint-config-airbnb/issues/56)
+
+
+
 <a name="5.11.0"></a>
 # [5.11.0](https://github.com/progre/tslint-config-airbnb/compare/5.10.0...5.11.0) (2018-09-01)
 
