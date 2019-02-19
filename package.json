@@ -16,7 +16,7 @@
     "@commitlint/config-conventional": "^7.1.2",
     "conventional-changelog-cli": "^2.0.11",
     "husky": "^1.1.4",
-    "tslint": "^5.11.0",
+    "tslint": "^5.12.0",
     "typescript": "^3.1.6"
   },
   "homepage": "https://github.com/progre/tslint-config-airbnb/#readme",
@@ -28,7 +28,7 @@
   "license": "Apache-2.0",
   "main": "tslint.js",
   "peerDependencies": {
-    "tslint": "^5.11.0"
+    "tslint": "^5.12.0"
   },
   "repository": "github:progre/tslint-config-airbnb",
   "scripts": {

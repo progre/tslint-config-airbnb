@@ -22,7 +22,7 @@ module.exports = {
     ], // 6.1, 6.5
     'prefer-template': true, // 6.3
     'no-eval': true, // 6.4
-    'no-function-constructor-with-string-args': true, // 7.10
+    'function-constructor': true, // 7.10
     'space-before-function-paren': [
       true,
       {
@@ -45,7 +45,7 @@ module.exports = {
     ], // 8.4
     'no-duplicate-imports': true, // 10.4
     'one-variable-per-declaration': [true, 'ignore-for-loop'], // 13.2
-    'no-increment-decrement': true, // 13.6
+    'increment-decrement': true, // 13.6
     'triple-equals': [true, 'allow-null-check'], // 15.1
     'no-boolean-literal-compare': true, // 15.3
     curly: [true, 'ignore-same-line'], // 16.1
