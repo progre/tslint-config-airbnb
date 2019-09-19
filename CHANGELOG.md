@@ -1,3 +1,8 @@
+<a name="5.11.2"></a>
+## [5.11.2](https://github.com/progre/tslint-config-airbnb/compare/5.11.1...5.11.2) (2019-09-19)
+
+
+
 <a name="5.11.1"></a>
 ## [5.11.1](https://github.com/progre/tslint-config-airbnb/compare/5.11.0...5.11.1) (2018-11-15)
 
