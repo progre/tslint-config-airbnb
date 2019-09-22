@@ -28,7 +28,7 @@
 ```bash
 $ npm uninstall tslint tslint-config-airbnb
 $ npm uninstall typescript-tslint-plugin
-$ npm install --dev eslint @typescript-eslint/eslint-plugin eslint-config-airbnb
+$ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-airbnb
 $ npx install-peerdeps --dev eslint-config-airbnb
 ```
 
